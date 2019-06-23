@@ -1,5 +1,5 @@
 html {
-    font-family: "Roboto", sans-serif;
+    font-family: "Raleway", sans-serif;
     font-size: 16px;
 }
 
@@ -21,8 +21,26 @@ h3 {
 }
 
 p {
-    font-weight: 300;
-    line-height: 2.5rem;
+    line-height: 2.3rem;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.body-text {
+    font-family: 'Roboto Slab', serif;
+    font-weight: 400;
+}
+
+#header-container { 
+    width: 100%;
+    text-align: center; /* ensures the image is always in the h-middle */ 
+    overflow: hidden; /* hide the cropped portion */ 
+} 
+
+#banner {
+    position: relative; /* allows repositioning */
+    left: 100%; /* move the whole width of the image to the right */ 
+    margin-left: -200%; /* magic! */
 }
 
 .white-text {
@@ -40,16 +58,46 @@ p {
     padding-right: 4rem;
 }
 
-#header-container { 
-    width: 100%;
-    text-align: center; /* ensures the image is always in the h-middle */ 
-    overflow: hidden; /* hide the cropped portion */ 
-} 
+.card {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 75%;
+    background-color: white;
+}
 
-#banner {
-    position: relative; /* allows repositioning */
-    left: 100%; /* move the whole width of the image to the right */ 
-    margin-left: -200%; /* magic! */
+.card-header {
+    font-weight : 400;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    margin-left: 20px;
+    margin-right: 20px;
+    border-bottom: 1px solid #ddd;
+}
+
+.card-body {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.card-footer {
+    font-weight : 300;
+    background-color: #379683;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    padding-left: 20px;
+    padding-right: 20px;
+    color:white;
+}
+
+.experience-company {
+    text-transform: uppercase;
+    font-size: 1rem;
+    line-height: 1.2rem;
+}
+
+.experience-job-title {
+    font-size: 1rem;
+    line-height: 1.2rem;
 }
 
 @media (min-width: 0px) {
