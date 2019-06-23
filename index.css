@@ -22,7 +22,7 @@ h3 {
 
 p {
     font-weight: 300;
-    font-size: 1.3rem;
+    font-size: 1.2rem;
     line-height: 2.5rem;
 }
 
@@ -49,46 +49,43 @@ p {
     overflow: hidden; /* hide the cropped portion */ 
 } 
 
-
-
-@media(min-aspect-ratio: 14/9 ) {
-    #banner {
-        position: relative; /* allows repositioning */
-        left: 100%; /* move the whole width of the image to the right */ 
-        margin-left: -200%; /* magic! */
-        height: 80%
-    }
+#banner {
+    position: relative; /* allows repositioning */
+    left: 100%; /* move the whole width of the image to the right */ 
+    margin-left: -200%; /* magic! */
 }
 
-@media(max-aspect-ratio: 14/9) {
-    #banner {
-        position: relative; /* allows repositioning */
-        left: 100%; /* move the whole width of the image to the right */ 
-        margin-left: -200%; /* magic! */
-        height: 50%;
-    }
-}
 
 
 @media (min-width: 0px) {
-
-}
-
-@media (min-width: 576px) {
-
+    #banner {
+        width: 780px;
+    }
 }
 
 
 @media (min-width: 768px) {
-
+    #banner {
+        width: 992px;
+    }
 }
 
 
 @media (min-width: 992px) {
-
+    #banner {
+        width: 1600px;
+    }
 }
 
 
-@media (min-width: 1200px) {
+@media (min-width: 1300px) {
+    #banner {
+        width: 100%;
+    }
+}
 
+@media (min-width: 2400px) {
+    #banner {
+        width: 2400px;
+    }
 }
