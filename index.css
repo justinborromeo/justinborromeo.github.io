@@ -1,0 +1,67 @@
+html {
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+}
+
+body {
+    margin: 0;
+    background: url(img/background.png) repeat;
+}
+
+h3 {
+    font-weight: 300;
+    font-size: 4rem;
+    line-height: 4rem;
+    padding-left: 4rem;
+    padding-right: 4rem;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin: 0;
+    text-transform: uppercase;
+}
+
+p {
+    font-weight: 300;
+    font-size: 1.3rem;
+    line-height: 2.5rem;
+}
+
+.white-text {
+    color: white;
+}
+
+.blue-background {
+    background-color: #08055e;
+}
+
+.text-container {
+    padding-top: 0;
+    padding-bottom: 0;
+    padding-left: 4rem;
+    padding-right: 4rem;
+    text-align: justify;
+    text-justify: inter-word;
+}
+
+@media (min-width: 0px) {
+
+}
+
+@media (min-width: 576px) {
+
+}
+
+
+@media (min-width: 768px) {
+
+}
+
+
+@media (min-width: 992px) {
+
+}
+
+
+@media (min-width: 1200px) {
+
+}
