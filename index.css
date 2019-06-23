@@ -43,6 +43,33 @@ p {
     text-justify: inter-word;
 }
 
+#header-container { 
+    width: 100%;
+    text-align: center; /* ensures the image is always in the h-middle */ 
+    overflow: hidden; /* hide the cropped portion */ 
+} 
+
+
+
+@media(min-aspect-ratio: 14/9 ) {
+    #banner {
+        position: relative; /* allows repositioning */
+        left: 100%; /* move the whole width of the image to the right */ 
+        margin-left: -200%; /* magic! */
+        height: 80%
+    }
+}
+
+@media(max-aspect-ratio: 14/9) {
+    #banner {
+        position: relative; /* allows repositioning */
+        left: 100%; /* move the whole width of the image to the right */ 
+        margin-left: -200%; /* magic! */
+        height: 50%;
+    }
+}
+
+
 @media (min-width: 0px) {
 
 }
