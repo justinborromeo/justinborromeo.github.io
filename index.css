@@ -24,11 +24,12 @@ p {
     line-height: 2.3rem;
     margin-top: 40px;
     margin-bottom: 40px;
+    font-weight: 400;
 }
 
-.body-text {
+.body-text, .cards-container {
     font-family: 'Roboto Slab', serif;
-    font-weight: 400;
+    font-weight: 300;
 }
 
 #header-container { 
@@ -68,15 +69,14 @@ p {
     padding-left: 3rem;
     padding-right: 3rem;
     font-weight : 400;
-    font-size: 1.1rem;
+    font-size: 1.15rem;
     margin: 0 auto;
     margin-top: 20px;
     margin-bottom: 20px;
+    border-radius: 4px;
 }
 
 .card-header {
-    font-size: 1.3rem;
-    font-weight: 400;
     padding-top: 1rem;
     padding-bottom: 1rem;
     border-bottom: 1px solid #ddd;
@@ -85,12 +85,14 @@ p {
 .card-body {
     padding-top: 2rem;
     padding-bottom: 2rem;
+    font-weight: 300;
 }
 
 .card-footer {
     border-top: 1px solid #ddd;
     padding-top: 1rem;
     padding-bottom: 1rem;
+    font-weight: 300;
 }
 
 @media (min-width: 0px) {
