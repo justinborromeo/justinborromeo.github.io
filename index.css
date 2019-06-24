@@ -95,18 +95,6 @@ p {
     font-weight: 300;
 }
 
-@media (min-width: 0px) {
-    #banner {
-        width: 900px;
-    }
-}
-
-@media (min-width: 600px) {
-    #banner {
-        width: 900px;
-    }
-}
-
 @media (max-width: 992px) {
     h3 {
         font-size: 5rem;
@@ -116,14 +104,10 @@ p {
         font-size: 3rem;
         line-height: 4.5rem;
     }
-}
-
-@media (min-width: 768px) {
     #banner {
-        width: 1200px;
+        width: 1000px;
     }
 }
-
 
 @media (min-width: 992px) {
     #banner {
