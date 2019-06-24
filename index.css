@@ -97,11 +97,7 @@ p {
 
 @media (min-width: 0px) {
     #banner {
-        width: 800px;
-    }
-    p {
-        font-size: 2rem;
-        line-height: 3rem;
+        width: 900px;
     }
 }
 
@@ -111,9 +107,13 @@ p {
     }
 }
 
-@media (max-width: 1000px) {
+@media (max-width: 992px) {
     h3 {
-        font-size: 3.8rem;
+        font-size: 5rem;
+        line-height: 5.5rem;
+    }
+    p {
+        font-size: 3rem;
         line-height: 4.5rem;
     }
 }
