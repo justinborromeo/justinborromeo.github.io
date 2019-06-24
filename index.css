@@ -64,11 +64,10 @@ p {
 }
 
 .card {
-    width: 75%;
+    width: 85%;
     background-color: white;
     padding-left: 3rem;
     padding-right: 3rem;
-    font-weight : 400;
     font-size: 1.15rem;
     margin: 0 auto;
     margin-top: 20px;
@@ -80,6 +79,7 @@ p {
     padding-top: 1rem;
     padding-bottom: 1rem;
     border-bottom: 1px solid #ddd;
+    font-weight: 400;
 }
 
 .card-body {
