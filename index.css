@@ -77,14 +77,13 @@ p {
 
 .card-header {
     padding-top: 1rem;
-    padding-bottom: 1rem;
     border-bottom: 1px solid #ddd;
     font-weight: 400;
 }
 
 .card-body {
-    padding-top: 2rem;
-    padding-bottom: 2rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
     font-weight: 300;
 }
 
@@ -95,14 +94,18 @@ p {
     font-weight: 300;
 }
 
+.company-description {
+    font-style: italic;
+}
+
 @media (max-width: 992px) {
     h3 {
         font-size: 5rem;
         line-height: 5.5rem;
     }
-    p {
-        font-size: 3rem;
-        line-height: 4.5rem;
+    p, .card {
+        font-size: 2.5rem;
+        line-height: 4rem;
     }
     #banner {
         width: 1000px;
@@ -114,8 +117,9 @@ p {
         width: 1600px;
     }
 
-    p {
+    p, .card {
         font-size: 1.2rem;
+        line-height: 2rem;
     }
 }
 

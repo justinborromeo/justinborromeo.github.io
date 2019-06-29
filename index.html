@@ -4,11 +4,11 @@
         <link href="https://fonts.googleapis.com/css?family=Raleway:200,300,400|Roboto+Slab:300,400&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">    
         <link rel="stylesheet" href="index.css">
+        <script src="https://use.fontawesome.com/6b1d18da9d.js"></script>
 
         <title>Justin Borromeo</title>
     </head>
     <body>
-        <div class = "container">
         <section id = "header">
             <div id = "header-container">
                 <img src = "img/banner.png" id = "banner">
@@ -42,19 +42,38 @@
             <div class = "cards-container">
                 <div class = "card z-depth-2">
                     <div class = "card-header">
-                        Imply, Database and Distributed Systems Engineering Intern
+                        Imply
+                        <br>
+                        Database and Distributed Systems Engineering Intern 
                         <br>
                         January 2019 - April 2019
                     </div>
                     <div class = "card-body">
-                        <ul>
-                            <li class = "bullet-point">
-                                asdf
+                        <div class = "company-description">
+                            Imply is an open-core company that provides a complete analytics solution (including data visualization,
+                            security, cluster management) based around Apache Druid. <a href = "https://imply.io/" target ="_blank">
+                            <i class="fa fa-external-link" aria-hidden="true"></i></a>
+                        </div>
+                        <ul class = "browser-default">
+                            <li>
+                                Developed time-ordering functionality for streaming SELECT queries, modified the SQL planner to support
+                                the new functionality, and benchmarked using JMH <a href = "https://imply.io/post/announcing-druid-0.15.0#other-items" target ="_blank">
+                                <i class="fa fa-external-link" aria-hidden="true"></i></a>
                             </li>
                             <li>
-                                asdf
+                                Wrote a clean-room implementation of the closed-source AWS Kinesis Client Library’s protocol buffer de-aggregator
+                                <a href = "https://github.com/apache/incubator-druid/pull/6917"><i class="fa fa-external-link" aria-hidden="true" target ="_blank"></i></a>                                  
+                            </li>
+                            <li> 
+                                Improved visibility into ingestion supervisor status by adding a REST API endpoint for state and recently thrown errors
+                                <a href = "https://github.com/apache/incubator-druid/pull/7428"><i class="fa fa-external-link" aria-hidden="true" target ="_blank"></i></a>
+                            </li>
+                            <li>
+                                Added an extension to the cluster management system that publishes user activity and cluster heartbeat data
+                                to Kafka streams for analytics and debugging.   Used MySQL and JDBI for scheduling among distributed servers
                             </li>
                         </ul>
+                        <b>Technologies Used</b>: Apache Druid, Java, JUnit, MySQL, Apache Kafka, AWS Kinesis, JDBI, Maven, Apache Calcite
                     </div>
                     <div class = "card-footer">
                         <span class = "experience-location">
@@ -64,11 +83,39 @@
                 </div>
                 <div class = "card z-depth-2">
                     <div class = "card-header">
-                        Toast, Software Engineering Intern <br>
+                        Toast
+                        <br>
+                        Software Engineering Intern
+                        <br>
                         May 2018 - August 2018
                     </div>
                     <div class = "card-body">
-                        asdf
+                        <div class = "company-description">
+                            Toast, Inc. is a cloud-based restaurant software company based in Boston, Massachusetts. 
+                            The company provides a restaurant management and point of sale system built on the Android
+                            operating system.
+                            <a href = "https://pos.toasttab.com/" target ="_blank">
+                            <i class="fa fa-external-link" aria-hidden="true"></i></a>
+                        </div>
+                        <ul class = "browser-default">
+                            <li>
+                                Developed features and enhancements for four payments microservices (file processing, partner API,
+                                internal tooling, and financing) and squashed bugs in Toast’s main web backend application
+                            </li>
+                            <li>
+                                Developed a data streaming system for Toast’s financing platform using AWS Kinesis and Dockerized
+                                Localstack (locally-hosted AWS services) testing infrastructure
+                            </li>
+                            <li>
+                                Developed internal tooling for identifying data synchronization issues
+                            </li>
+                            <li>
+                                Built a serverless Lambda system on top of JUnit and Jenkins for automated flaky test retries
+                                and reporting
+                            </li>
+                        </ul>
+                        <b>Technologies Used</b>: Java, JUnit, Play MVC, Hibernate, Dropwizard, PostgreSQL, JDBI, AWS Kinesis, AWS S3,
+                        Docker, AWS Lambda, API Gateway, MongoDB 
                     </div>
                     <div class = "card-footer">
                         <span class = "experience-location">
@@ -78,54 +125,36 @@
                 </div>
                 <div class = "card z-depth-2">
                     <div class = "card-header">
-                        Lytx, Software Engineering Intern <br> 
+                        Lytx
+                        <br>
+                        Software Engineering Intern
+                        <br> 
                         January 2017 - April 2017, September 2017 - December 2017
                     </div>
                     <div class = "card-body">
-                        asdf
+                        <div class = "company-description">
+                            Lytx is a global driver risk management company located in San Diego, California. It designs,
+                            manufactures and sells video telematics driver safety programs used by commercial fleets.
+                            <a href = "https://www.lytx.com/en-us/" target ="_blank">
+                            <i class="fa fa-external-link" aria-hidden="true"></i></a>
+                        </div>
+                        <ul class = "browser-default">
+                            <li>
+                                Implemented JSON Web Token authentication and authorization for an MVC application and RESTful API 
+                                using C# (ASP.NET), JQuery, SQL Server, and Azure Cloud Services 
+                            </li>
+                            <li> 
+                                Designed an indexing system and data model, and developed a web application that supports sub-second
+                                geospatial queries on large quantities of data (proven to work on a dataset with 1B GPS points)
+                            </li>
+                        </ul>
+                        <b>Technologies Used</b>: Node.js, Express.js, HTML, and CSS, JQuery, Cassandra, C#, 
+                        ASP.NET Web API and MVC, SQL Server, and Azure Cloud Services 
                     </div>
                     <div class = "card-footer">
                         <span class = "experience-location">
                             Markham, Ontario
                         </span>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <section id = "skills">
-            <h3 class = "section-title white-text blue-background">Skills</h3>
-            <div class = "cards-container">
-                <div class = "card z-depth-2">
-                    <div class = "card-header">
-                        Programming Languages
-                    </div>
-                    <div class = "card-body">
-                        asdf
-                    </div>
-                </div>
-                <div class = "card z-depth-2">
-                    <div class = "card-header">
-                        Frameworks
-                    </div>
-                    <div class = "card-body">
-                        asdf
-                    </div>
-                </div>
-                <div class = "card z-depth-2">
-                    <div class = "card-header">
-                        Datastores
-                    </div>
-                    <div class = "card-body">
-                        asdf
-                    </div>
-                </div>
-                <div class = "card z-depth-2">
-                    <div class = "card-header">
-                        Development Tools
-                    </div>
-                    <div class = "card-body">
-                        asdf
                     </div>
                 </div>
             </div>
@@ -139,5 +168,4 @@
             <h3 class = "section-title white-text blue-background">Contact</h3>     
         </section>
     </body>
-</div>
 </html>
