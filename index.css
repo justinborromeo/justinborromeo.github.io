@@ -61,7 +61,7 @@ p {
 
 .cards-container {
     width: 100%;
-}
+}   
 
 .card {
     width: 85%;
@@ -96,6 +96,14 @@ p {
 
 .company-description {
     font-style: italic;
+}
+
+#contact-container {
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    text-align: center;
 }
 
 @media (max-width: 992px) {
